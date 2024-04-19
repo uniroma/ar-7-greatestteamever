@@ -1,0 +1,9 @@
+OOP approach, easier way to do confound changes and keep your script cleaned 
+
+In Python, the equivalent of Julia's struct for simplifying data construction is typically handled by using classes, specifically using the dataclass from the dataclasses module
+
+In Julia, the typeof function is used to determine the type of a variable or an expression. In Python, you can achieve a similar result using the type() function, which returns the type of the object passed to it.
+
+a fast way not to change everything is to create a function that simply recalls me the dependent, indipendent, and parameters.  not doing so you may enconunter a situation where changin one thing, destroys your cod, meaning that u need to change all names or fumctions
+
+using LinearAlgebra on python is using LinAlg
